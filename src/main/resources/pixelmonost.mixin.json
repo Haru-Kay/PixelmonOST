@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.haru.pixelmonost.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinMusicTicker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "pixelmonost.mixin-refmap.json"
+}

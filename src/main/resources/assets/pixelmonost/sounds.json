@@ -1,0 +1,162 @@
+{
+  "a_simple_moment_by_the_sea": {
+    "category": "ambient",
+    "subtitle": "A Simple Moment by the Sea",
+    "sounds": [
+      {
+        "name": "pixelmonost:a_simple_moment_by_the_sea",
+        "stream": true
+      }
+    ]
+  },
+  "across_the_desert": {
+    "category": "ambient",
+    "subtitle": "Across the Desert",
+    "sounds": [
+      {
+        "name": "pixelmonost:across_the_desert",
+        "stream": true
+      }
+    ]
+  },
+  "clear_skies": {
+    "category": "ambient",
+    "subtitle": "Clear Skies",
+    "sounds": [
+      {
+        "name": "pixelmonost:clear_skies",
+        "stream": true
+      }
+    ]
+  },
+  "dawn": {
+    "category": "ambient",
+    "subtitle": "Dawn",
+    "sounds": [
+      {
+        "name": "pixelmonost:dawn",
+        "stream": true
+      }
+    ]
+  },
+  "distant_shores": {
+    "category": "ambient",
+    "subtitle": "Distant Shores",
+    "sounds": [
+      {
+        "name": "pixelmonost:distant_shores",
+        "stream": true
+      }
+    ]
+  },
+  "dusk": {
+    "category": "ambient",
+    "subtitle": "Dusk",
+    "sounds": [
+      {
+        "name": "pixelmonost:dusk",
+        "stream": true
+      }
+    ]
+  },
+  "from_peak_to_peak": {
+    "category": "ambient",
+    "subtitle": "From Peak to Peak",
+    "sounds": [
+      {
+        "name": "pixelmonost:from_peak_to_peak",
+        "stream": true
+      }
+    ]
+  },
+  "journey_to_the_sky": {
+    "category": "ambient",
+    "subtitle": "Journey to the Sky",
+    "sounds": [
+      {
+        "name": "pixelmonost:journey_to_the_sky",
+        "stream": true
+      }
+    ]
+  },
+  "midnight": {
+    "category": "ambient",
+    "subtitle": "Midnight",
+    "sounds": [
+      {
+        "name": "pixelmonost:midnight",
+        "stream": true
+      }
+    ]
+  },
+  "moonlight": {
+    "category": "ambient",
+    "subtitle": "Moonlight",
+    "sounds": [
+      {
+        "name": "pixelmonost:moonlight",
+        "stream": true
+      }
+    ]
+  },
+  "nightfall": {
+    "category": "ambient",
+    "subtitle": "Nightfall",
+    "sounds": [
+      {
+        "name": "pixelmonost:nightfall",
+        "stream": true
+      }
+    ]
+  },
+  "on_the_wings_of_adventure": {
+    "category": "ambient",
+    "subtitle": "On the Wings of Adventure",
+    "sounds": [
+      {
+        "name": "pixelmonost:on_the_wings_of_adventure",
+        "stream": true
+      }
+    ]
+  },
+  "pixelmon_waltz": {
+    "category": "ambient",
+    "subtitle": "Pixelmon Waltz",
+    "sounds": [
+      {
+        "name": "pixelmonost:pixelmon_waltz",
+        "stream": true
+      }
+    ]
+  },
+  "the_enchanted_forest": {
+    "category": "ambient",
+    "subtitle": "The Enchanted Forest",
+    "sounds": [
+      {
+        "name": "pixelmonost:the_enchanted_forest",
+        "stream": true
+      }
+    ]
+  },
+  "the_frozen_land": {
+    "category": "ambient",
+    "subtitle": "The Frozen Land",
+    "sounds": [
+      {
+        "name": "pixelmonost:the_frozen_land",
+        "stream": true
+      }
+    ]
+  },
+  "the_great_plains": {
+    "category": "ambient",
+    "subtitle": "The Great Plains",
+    "sounds": [
+      {
+        "name": "pixelmonost:the_great_plains",
+        "stream": true
+      }
+    ]
+  }
+}
