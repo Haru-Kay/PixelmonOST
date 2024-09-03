@@ -44,6 +44,7 @@ public class ModSoundEvents {
     public static final RegistryObject<SoundEvent> MUSIC_PLAINS =
             registerSoundEvent("the_great_plains");
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
+        //PixelmonOST.LOGGER.info("Registering pixelmonost:" + name);
         return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(PixelmonOST.MOD_ID, name)));
     }
     public static void register(IEventBus eventBus) {

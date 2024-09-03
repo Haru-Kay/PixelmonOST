@@ -1,5 +1,6 @@
 package com.haru.pixelmonost.mixin;
 
+import com.haru.pixelmonost.PixelmonOST;
 import com.haru.pixelmonost.util.SongSelection;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.*;
@@ -42,12 +43,16 @@ public class MixinMusicTicker {
             )
     )
     public void musicTick(MusicTicker instance, BackgroundMusicSelector selector){
+        //PixelmonOST.LOGGER.info("Redirected to musicTick()");
         if (this.minecraft.player != null) {
+            //PixelmonOST.LOGGER.info("Found player");
             ClientWorld world = this.minecraft.level;
             boolean overworld = world.dimension() == World.OVERWORLD;
             if (overworld) {
+                //PixelmonOST.LOGGER.info("Found player in overworld");
                 this.playPixelmonSound();
             } else {
+                //PixelmonOST.LOGGER.info("Found not in overworld");
                 this.startPlaying(selector);
             }
         } else {
@@ -81,6 +86,7 @@ public class MixinMusicTicker {
         int idx = random.nextInt(music.size());
         SoundEvent soundEvent = (SoundEvent)music.get(idx);
 
+        //PixelmonOST.LOGGER.info("Attempting to play sound " + soundEvent.getLocation());
         this.currentMusic = SimpleSound.forMusic(soundEvent);
         if (this.currentMusic.getSound() != SoundHandler.EMPTY_SOUND) {
             this.minecraft.getSoundManager().play(this.currentMusic);
